@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""NO FIXED SHAPE - a short text puzzle about attention and lucid dreaming."""
+"""NO FIXED SHAPE - a short text puzzle."""
 
 from __future__ import annotations
 
@@ -160,10 +160,11 @@ class NoFixedShape:
     def introduction(self) -> str:
         return prose(
             "NO FIXED SHAPE\n\n"
-            "You wake up in your own mind.\n\n"
+            "Walls begin appearing around you one at a time. They continue forming until you are completely enclosed inside a room.\n\n"
             "Four unbroken, wallpapered walls surround you. There are no doors or windows. A single "
             "lightbulb hangs from the ceiling, illuminating the entire room even though "
             "its light should not be able to reach that far.\n\n"
+	    "You do not remember entering this place. It seems as though the room formed around you.\n\n"
             "You need to get out.\n\n"
             "Type HELP to see the available commands."
         )
